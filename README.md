@@ -1,16 +1,32 @@
-# React + Vite
+# Razorpay Inspired Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a clean, modern and fully responsive fintech landing page, inspired by Razorpay’s design system.
+Built using React, Vite, and TailwindCSS, the UI focuses on gradients, professional layout, and reusable components.
 
-Currently, two official plugins are available:
+# Live Demo
+https://vishalponia.github.io/razorpayassignment/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
 
-## React Compiler
+React (Vite) – Fast bundler for development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tailwind CSS – Utility-first styling
 
-## Expanding the ESLint configuration
+Heroicons / Lucide Icons – Modern icon set
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+GitHub Pages (gh-pages) – Deployment
+
+ # Project Structure
+
+ src/
+ ├─ components/
+ │   ├─ Navbar.jsx
+ │   ├─ Hero.jsx
+ │   ├─ Hero1.jsx
+ │   ├─ Features.jsx
+ │   ├─ ProductHighlight.jsx
+ │   
+ │   └─ Footer.jsx
+ │
+ ├─ App.jsx
+ └─ main.jsx
